@@ -85,10 +85,6 @@ Alternatively, you may want to transform all your notebooks in one go. Run the f
 kedro jupyter convert --all
 ```
 
-### How to ignore notebook output cells in `git`
-To automatically strip out all output cell contents before committing to `git`, you can run `kedro activate-nbstripout`. This will add a hook in `.git/config` which will run `nbstripout` before anything is committed to `git`.
-
-> *Note:* Your output cells will be retained locally.
 
 ## Package your Kedro project
 
