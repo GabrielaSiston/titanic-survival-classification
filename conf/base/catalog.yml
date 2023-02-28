@@ -6,12 +6,11 @@
 # arquivo catalog.yml
 train:
   type: pandas.CSVDataSet
-  filepath: /home/gabsiston/codes/desafio_DS_LH/titanic-survival-classification/data/01_raw/train.csv
+  filepath: data/01_raw/train.csv
 
 test: 
   type: pandas.CSVDataSet
-  filepath: /home/gabsiston/codes/desafio_DS_LH/titanic-survival-classification/data/01_raw/test.csv
-
+  filepath: data/01_raw/test.csv
 train_num:
   type: pandas.CSVDataSet
   filepath: ./titanic-survival-classification/data/02_intermediate/train_num.csv
@@ -19,7 +18,3 @@ train_num:
 result: 
   type: pandas.CSVDataSet
   filepath: ./titanic-survival-classification/data/08_reporting/result.csv
-
-#predict: 
-#  type: pandas.CSVDataSet
-#  filepath: ./titanic-survival-classification/data/08_reporting/predict.csv
