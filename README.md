@@ -2,7 +2,7 @@
 
 Before starting you will need to get the training and testing data from the model, visit: 
 
-(https://www.kaggle.com/competitions/titanic/data)
+https://www.kaggle.com/competitions/titanic/data
 
 To run the project's pipelines, create a virtual environment:
 
