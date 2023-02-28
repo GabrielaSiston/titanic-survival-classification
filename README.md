@@ -1,4 +1,10 @@
-# titanic_survival_classification
+# Titanic Survival Classification
+
+To run the project's pipelines, create a virtual environment:
+
+```
+python3 -m venv venv
+```
 
 ## Overview
 
